@@ -1,0 +1,101 @@
+# =============================================================
+# .gitignore — CampoDeTerraFC
+# Unity 2022.3 LTS + URP
+# =============================================================
+
+# -------------------------------------------------------
+# Unity gerado automaticamente — NUNCA versionar
+# -------------------------------------------------------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# -------------------------------------------------------
+# Arquivos de cache do Unity
+# -------------------------------------------------------
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# -------------------------------------------------------
+# Visual Studio / Rider — gerados automaticamente
+# -------------------------------------------------------
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# -------------------------------------------------------
+# Asset Store e pacotes externos com cache
+# -------------------------------------------------------
+/[Aa]ssets/[Aa]sset[Ss]tore*/
+
+# -------------------------------------------------------
+# Build outputs específicos
+# -------------------------------------------------------
+/[Aa]ssets/[Ss]tream[Ii]ng[Aa]ssets/aa.meta
+/[Aa]ssets/[Ss]tream[Ii]ng[Aa]ssets/aa/
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/[Ss]ervers/
+
+# -------------------------------------------------------
+# URP — arquivos de bake que não precisam ser versionados
+# -------------------------------------------------------
+/[Aa]ssets/[Ss]cenes/*.lightingdata.asset
+GI Cache/
+gi_cache/
+
+# -------------------------------------------------------
+# Sistema operacional
+# -------------------------------------------------------
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# -------------------------------------------------------
+# OneDrive — evitar conflitos de sync
+# -------------------------------------------------------
+*.tmp
+~$*
+
+# -------------------------------------------------------
+# O QUE DEVE SER VERSIONADO (referência)
+# -------------------------------------------------------
+# Assets/           — todo o conteúdo do projeto
+# Packages/         — manifest.json e packages-lock.json
+# ProjectSettings/  — todas as configurações do projeto
+# .gitignore        — este arquivo
